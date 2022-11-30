@@ -20,5 +20,5 @@ fi
 echo -e "\n"
 echo -e $UYel"WP-CRON for this application is"$ENDCOLOR
 echo -e "\n"
-echo "cd $web_root_full_path && $wp_path cron event run --due-now  >> $tmp/tmp/wp_cron.log"
+echo "* * * * * cd $web_root_full_path && $wp_path cron event run --due-now  >> $tmp/tmp/wp_cron.log"
 echo -e "\n"
